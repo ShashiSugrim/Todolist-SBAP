@@ -5,7 +5,7 @@ It uses features such as secure user authorization, hashed password storage, reu
 
 ## Demo
 
-![Todo List Demo](public/todolist_three.gif)
+![Todo List Demo](public/todolist.gif)
 
 
 ## To run
