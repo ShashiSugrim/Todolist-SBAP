@@ -1,8 +1,8 @@
-
 <div class="w-full min-h-screen bg-[#fdf6e3] flex flex-col items-center">
-<div class="flex flex-col items-center mt-8 mb-8" (click)="goHome()" class="cursor-pointer">
+  <!-- Changed from mt-16 to mt-8 to match home component -->
+  <div class="flex flex-col items-center mt-8 mb-2 cursor-pointer" (click)="goHome()">
     <img src="/removed_bg_truck.png" alt="Home" class="h-24 w-auto" />
-</div>
+  </div>
   <div *ngIf="signedIn" class="flex justify-end w-full pr-8 mb-4">
     <span class="text-black font-semibold text-lg">Signed in as {{ signInEmail }}</span>
   </div>
